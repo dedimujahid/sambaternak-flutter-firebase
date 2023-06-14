@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "1087977237588",
+    "project_id": "sambaternak-firebase",
+    "storage_bucket": "sambaternak-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087977237588:android:daf85d9161d0d92927d1c1",
+        "android_client_info": {
+          "package_name": "com.example.sambaternak_flutter_fbs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087977237588-d9cobfqbd0de1heom2f4so82oi5v1j43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdjoZBTmQmG_qDpBKdq3QWCXrpr8UyjkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087977237588-d9cobfqbd0de1heom2f4so82oi5v1j43.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1087977237588-57fh4i2ppsk4037q21q4j1bcfnfptp1k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sambaternakFlutterFirebase"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087977237588:android:fff10629f40d43eb27d1c1",
+        "android_client_info": {
+          "package_name": "com.example.sambaternak_flutter_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087977237588-d9cobfqbd0de1heom2f4so82oi5v1j43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdjoZBTmQmG_qDpBKdq3QWCXrpr8UyjkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087977237588-d9cobfqbd0de1heom2f4so82oi5v1j43.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1087977237588-57fh4i2ppsk4037q21q4j1bcfnfptp1k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sambaternakFlutterFirebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
