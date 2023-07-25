@@ -448,6 +448,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+<<<<<<< HEAD
+=======
   nested:
     dependency: transitive
     description:
@@ -456,6 +458,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.0"
+>>>>>>> main
   path:
     dependency: transitive
     description:
