@@ -77,8 +77,8 @@ class RegisterView2 extends GetView<RegisterController> {
                                           // shape: RoundedRectangleBorder(
                                           //     borderRadius:
                                           //         BorderRadius.circular(4)),
-                                          child: Padding(
-                                            padding: const EdgeInsets.only(
+                                          child: const Padding(
+                                            padding: EdgeInsets.only(
                                                 bottom: 10,
                                                 top: 10,
                                                 left: 14,
@@ -86,7 +86,7 @@ class RegisterView2 extends GetView<RegisterController> {
                                             child: Row(
                                               mainAxisAlignment:
                                                   MainAxisAlignment.spaceAround,
-                                              children: const [
+                                              children: [
                                                 Icon(Icons.facebook, size: 13),
                                                 SizedBox(
                                                   width: 5,
@@ -115,8 +115,8 @@ class RegisterView2 extends GetView<RegisterController> {
                                           // shape: RoundedRectangleBorder(
                                           //     borderRadius:
                                           //         BorderRadius.circular(4)),
-                                          child: Padding(
-                                            padding: const EdgeInsets.only(
+                                          child: const Padding(
+                                            padding: EdgeInsets.only(
                                                 bottom: 10,
                                                 top: 10,
                                                 left: 8,
@@ -124,7 +124,7 @@ class RegisterView2 extends GetView<RegisterController> {
                                             child: Row(
                                               mainAxisAlignment:
                                                   MainAxisAlignment.spaceAround,
-                                              children: const [
+                                              children: [
                                                 Icon(Icons.mail, size: 13),
                                                 SizedBox(
                                                   width: 5,

@@ -34,7 +34,7 @@ class MarketDetail extends GetView<MarketController> {
                         SizedBox(
                           width: getProperWidht(9),
                         ),
-                        SvgPicture.asset('assets/images/logo.svg'),
+                        SvgPicture.asset('assets/images/logosambat.svg'),
                         SizedBox(
                           width: 300.0,
                           child: Center(

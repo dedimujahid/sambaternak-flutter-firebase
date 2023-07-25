@@ -45,8 +45,8 @@ class HomeView extends GetView<HomeController> {
                 scrollDirection: Axis.horizontal,
                 child: Container(
                   padding: EdgeInsets.all(getProperWidht(18)),
-                  child: Row(
-                    children: const [
+                  child: const Row(
+                    children: [
                       RekomendationCard(
                         title: 'Lapak Ternak',
                         imagePath: 'assets/images/bg-market3.jpg',
@@ -357,7 +357,7 @@ class CustomAppBar extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  SvgPicture.asset('assets/images/logo.svg'),
+                  SvgPicture.asset('assets/images/logosambat.svg'),
                   const Spacer(),
                   const Icon(
                     Icons.message_rounded,

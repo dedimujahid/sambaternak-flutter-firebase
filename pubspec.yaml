@@ -49,6 +49,7 @@ dependencies:
   firebase_auth: ^4.6.2
   firebase_core_dart: ^1.0.1
   firebase_core: ^2.13.1
+  provider: ^6.0.5
 
 dev_dependencies:
   flutter_test:
@@ -79,10 +80,12 @@ flutter:
     - assets/images/cuate.png
     - assets/images/doctor-sample.jpg
     - assets/images/backgroundd.jpg
+    - assets/images/backgroundsapi.jpeg
     - assets/images/chicken.png
     - assets/images/image.png
     - assets/images/logosamabat.png
     - assets/images/logosambat.png
+    - assets/images/logosambat.svg
     - assets/images/sambaternak.png
     - assets/images/logo-sambat.svg
     - assets/images/rekomcard1.png

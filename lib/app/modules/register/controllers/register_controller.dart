@@ -84,21 +84,17 @@ class RegisterController extends GetxController {
 
   Future<void> checkRegister() async {
     isError = false;
-    // final isValid = loginFormKey.currentState!.validate();
-    // if (!isValid) {
-    //   return;
-    // } else {
-    //   Get.offAllNamed(Routes.HOME);
-    // }
-    // loginFormKey.currentState!.save();
-
-    // final progrss = ProgressHUD.of(context);
-    // progrss?.showWithText('Loading');
     registerFormKey.currentState!.save();
     try {
+      // Lakukan proses registrasi dengan Firebase Authentication
+
+      // Registrasi berhasil, Anda dapat melakukan hal-hal lain yang diperlukan
+      // seperti menyimpan data pengguna ke database, dsb.
+
+      // Setelah berhasil registrasi, arahkan pengguna ke halaman beranda (HOME).
       Get.offAllNamed(Routes.HOME);
     } catch (e) {
-      // progrss?.dismiss();
+      // Tangani kesalahan yang mungkin terjadi saat registrasi.
       isError = true;
       notif = e.toString();
       if (kDebugMode) {

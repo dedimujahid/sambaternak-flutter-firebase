@@ -77,7 +77,7 @@ class DiseaseModel {
     ),
   ];
 
-  static List<DiseaseModel> listNewCastle = [
+  static List<DiseaseModel> listNewLsd = [
     DiseaseModel(
       title: 'New Castle (ND)',
       desc:
