@@ -14,7 +14,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "1087977237588-d9cobfqbd0de1heom2f4so82oi5v1j43.apps.googleusercontent.com",
+          "client_id": "1087977237588-r3ki60t6kd8o9anft8of6kc80rg9jbsf.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -31,51 +31,16 @@
               "client_type": 3
             },
             {
-              "client_id": "1087977237588-57fh4i2ppsk4037q21q4j1bcfnfptp1k.apps.googleusercontent.com",
+              "client_id": "1087977237588-2oeplutm5js5u2a8adshag9a605vh3ir.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.sambaternakFlutterFirebase"
+                "bundle_id": "com.example.sambaternakFlutterFbs"
               }
             }
           ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1087977237588:android:fff10629f40d43eb27d1c1",
-        "android_client_info": {
-          "package_name": "com.example.sambaternak_flutter_firebase"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "1087977237588-d9cobfqbd0de1heom2f4so82oi5v1j43.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAdjoZBTmQmG_qDpBKdq3QWCXrpr8UyjkQ"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1087977237588-d9cobfqbd0de1heom2f4so82oi5v1j43.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "1087977237588-57fh4i2ppsk4037q21q4j1bcfnfptp1k.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.sambaternakFlutterFirebase"
-              }
-            }
-          ]
-        }
-      }
+      "admob_app_id": "ca-app-pub-9346526340665097~1913075529"
     }
   ],
   "configuration_version": "1"

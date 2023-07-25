@@ -35,9 +35,9 @@ class MarketView extends GetView<MarketController> {
                         SizedBox(
                           width: getProperWidht(9),
                         ),
-                        SvgPicture.asset('assets/images/logo.svg'),
+                        SvgPicture.asset('assets/images/logosambat.svg'),
                         SizedBox(
-                          width: 300.0,
+                          width: 200.0,
                           child: Center(
                             child: Text(
                               'E-Commerce',
@@ -231,7 +231,7 @@ class CustomMarket extends StatelessWidget {
               Padding(
                 padding:
                     const EdgeInsets.symmetric(horizontal: 0, vertical: 10.0),
-                child: SvgPicture.asset('assets/images/hai-letter.svg'),
+                child: SvgPicture.asset('assets/images/logosambat.svg'),
               ),
               SizedBox(
                 width: 380.0,

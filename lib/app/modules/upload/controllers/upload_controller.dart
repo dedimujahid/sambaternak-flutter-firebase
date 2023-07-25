@@ -83,14 +83,7 @@ class UploadController extends GetxController {
         break;
       case 'lsd':
         title.value = 'LSD';
-        break;
-      case 'ncd':
-        title.value = 'NCD';
-        listDisease = DiseaseModel.listNewCastle;
-        break;
-      case 'salmo':
-        title.value = 'Salmonella';
-        listDisease = DiseaseModel.listSalmonella;
+        listDisease = DiseaseModel.listNewLsd;
         break;
       default:
         listDisease = [];

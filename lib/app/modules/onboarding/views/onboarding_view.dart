@@ -74,9 +74,9 @@ class OnboardingView extends GetView<OnboardingController> {
                   SizedBox(
                     height: getProperWidht(28),
                   ),
-                  Row(
+                  const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: const [
+                    children: [
                       LeftButton(),
                       RightButton(),
                     ],

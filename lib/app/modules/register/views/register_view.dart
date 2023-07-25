@@ -26,8 +26,8 @@ class RegisterView extends GetView<RegisterController> {
                   SizedBox(
                     height: getProperWidht(10),
                   ),
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       Text(
                         textAlign: TextAlign.left,
                         "Daftar",
@@ -51,8 +51,8 @@ class RegisterView extends GetView<RegisterController> {
                   SizedBox(
                     height: getProperWidht(50),
                   ),
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       Text(
                         textAlign: TextAlign.left,
                         "Nama Lengkap",
@@ -86,8 +86,8 @@ class RegisterView extends GetView<RegisterController> {
                   SizedBox(
                     height: getProperWidht(20),
                   ),
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       Text(
                         textAlign: TextAlign.left,
                         "Username",
@@ -121,8 +121,8 @@ class RegisterView extends GetView<RegisterController> {
                   SizedBox(
                     height: getProperWidht(20),
                   ),
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       Text(
                         textAlign: TextAlign.left,
                         "Email",
@@ -158,8 +158,8 @@ class RegisterView extends GetView<RegisterController> {
                   SizedBox(
                     height: getProperWidht(25),
                   ),
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       Text(
                         textAlign: TextAlign.left,
                         "Password",

@@ -26,7 +26,7 @@ class LoginView extends GetView<LoginController> {
                   SizedBox(
                     height: getProperWidht(25),
                   ),
-                  Image.asset('assets/images/logoHaiTernak.png'),
+                  Image.asset('assets/images/logosambat.png'),
                   SizedBox(
                     height: getProperWidht(25),
                   ),
@@ -41,8 +41,8 @@ class LoginView extends GetView<LoginController> {
                   SizedBox(
                     height: getProperWidht(20),
                   ),
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       Text(
                         textAlign: TextAlign.left,
                         "Email",
@@ -76,8 +76,8 @@ class LoginView extends GetView<LoginController> {
                   SizedBox(
                     height: getProperWidht(25),
                   ),
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       Text(
                         textAlign: TextAlign.left,
                         "Password",
